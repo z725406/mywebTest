@@ -1,0 +1,11 @@
+mybatis:
+  type-aliases-package: demos.model
+  config-locations: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.77.33.231:3306/spring?useUnicode=true&characterEncoding=utf8
+    username: zengff
+    password: zZ725406+
