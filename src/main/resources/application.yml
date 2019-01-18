@@ -6,6 +6,6 @@ mybatis:
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://120.77.33.231:3306/spring?useUnicode=true&characterEncoding=utf8
-    username: zengff
-    password: zZ725406+
+    url: jdbc:mysql://localHost/spring?useUnicode=true&characterEncoding=utf8
+    username: root  
+    password: root+
